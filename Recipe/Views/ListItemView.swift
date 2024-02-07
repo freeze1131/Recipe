@@ -12,8 +12,6 @@ struct ListItemView: View {
     let caloriesPer100Grams: Int
     let recipeImage: String
 
-    
-    
     var body: some View {
         HStack {
             VStack(alignment:.leading,spacing: 5) {
@@ -30,10 +28,13 @@ struct ListItemView: View {
             Image(recipeImage)
                 .resizable()
                 .frame(width: 70,height: 70)
+                .overlay(Rectangle()
+                        .stroke(Color.white,lineWidth: 3))
+                .shadow(color: .white.opacity(0.7),radius: 5,x:0,y:0)
         }
         .padding()
         .background(Color.black.cornerRadius(20))
-        .padding()
+       
         
     }
 }

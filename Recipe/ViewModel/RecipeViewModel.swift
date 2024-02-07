@@ -44,11 +44,20 @@ import SwiftUI
             RecipeModel(name: "Apple Pie",
                         caloriesPer100Grams: 237,
                         recipe: """
-                                        **Ingredients**
-                                        -...
-                                        -...
-                                        -...
-                                        -...
+                                               **Ingredients**
+                                        - 8 small Granny Smith apples, or as needed
+                                        
+                                        - ½ cup unsalted butter
+                                        
+                                        - 3 tablespoons all-purpose flour
+                                        
+                                        - ½ cup white sugar
+                                        
+                                        - ½ cup packed brown sugar
+                                        
+                                        - ¼ cup water
+                                        
+                                        - 1 (9 inch) double-crust pie pastry, thawed
                                         """,
                         image: "IMGApplePie",
                         recipeURL: "https://www.allrecipes.com/recipe/12682/apple-pie-by-grandma-ople/"))

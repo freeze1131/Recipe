@@ -14,6 +14,7 @@
 		94C186BF2B73725C00E8C8EA /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C186BE2B73725C00E8C8EA /* RecipeModel.swift */; };
 		94C186C12B73730700E8C8EA /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C186C02B73730700E8C8EA /* RecipeViewModel.swift */; };
 		94C186C32B7374E000E8C8EA /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C186C22B7374E000E8C8EA /* ListItemView.swift */; };
+		94C186C52B7378C400E8C8EA /* ShowRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C186C42B7378C400E8C8EA /* ShowRecipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		94C186BE2B73725C00E8C8EA /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		94C186C02B73730700E8C8EA /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
 		94C186C22B7374E000E8C8EA /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		94C186C42B7378C400E8C8EA /* ShowRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRecipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +63,6 @@
 				94C186BB2B73722A00E8C8EA /* Views */,
 				94C186BD2B73723600E8C8EA /* ViewModel */,
 				94C186AD2B7371B700E8C8EA /* RecipeApp.swift */,
-				94C186AF2B7371B700E8C8EA /* RecipeView.swift */,
 				94C186B12B7371B900E8C8EA /* Assets.xcassets */,
 				94C186B32B7371B900E8C8EA /* Preview Content */,
 			);
@@ -80,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				94C186C22B7374E000E8C8EA /* ListItemView.swift */,
+				94C186AF2B7371B700E8C8EA /* RecipeView.swift */,
+				94C186C42B7378C400E8C8EA /* ShowRecipeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94C186C32B7374E000E8C8EA /* ListItemView.swift in Sources */,
+				94C186C52B7378C400E8C8EA /* ShowRecipeView.swift in Sources */,
 				94C186C12B73730700E8C8EA /* RecipeViewModel.swift in Sources */,
 				94C186B02B7371B700E8C8EA /* RecipeView.swift in Sources */,
 				94C186AE2B7371B700E8C8EA /* RecipeApp.swift in Sources */,
