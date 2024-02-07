@@ -12,6 +12,7 @@
 		94C186B22B7371B900E8C8EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C186B12B7371B900E8C8EA /* Assets.xcassets */; };
 		94C186B52B7371B900E8C8EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C186B42B7371B900E8C8EA /* Preview Assets.xcassets */; };
 		94C186BF2B73725C00E8C8EA /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C186BE2B73725C00E8C8EA /* RecipeModel.swift */; };
+		94C186C12B73730700E8C8EA /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C186C02B73730700E8C8EA /* RecipeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		94C186B12B7371B900E8C8EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94C186B42B7371B900E8C8EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		94C186BE2B73725C00E8C8EA /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		94C186C02B73730700E8C8EA /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		94C186BD2B73723600E8C8EA /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				94C186C02B73730700E8C8EA /* RecipeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C186C12B73730700E8C8EA /* RecipeViewModel.swift in Sources */,
 				94C186B02B7371B700E8C8EA /* RecipeView.swift in Sources */,
 				94C186AE2B7371B700E8C8EA /* RecipeApp.swift in Sources */,
 				94C186BF2B73725C00E8C8EA /* RecipeModel.swift in Sources */,
